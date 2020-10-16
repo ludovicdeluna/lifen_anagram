@@ -32,7 +32,13 @@ bundle
 bundle exec ruby anagram_app.rb
 ```
 
-The result is in output/anagrams.txt
+The result is in output/anagrams.txt; the program will show a bench result as it:
+
+```
+Generate CSV        :   1.974207   0.028040   2.002247 (  2.002425)
+Array with group_by :   1.788943   0.008036   1.796979 (  1.797103)
+Hash                :   1.748584   0.000013   1.748597 (  1.748719)
+```
 
 ## Start test
 
