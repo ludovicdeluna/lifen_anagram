@@ -1,8 +1,5 @@
 # Anagram
 
-This is a work in progress, not completed for now.
-
-
 ## Objectifs
 
 Fichier source : [http://www.pallier.org/extra/liste.de.mots.francais.frgut.txt](http://www.pallier.org/extra/liste.de.mots.francais.frgut.txt)
@@ -25,12 +22,20 @@ Testé sur Ruby 1.7
 
 ## Install gems
 
+```shell
 bundle
+```
 
 ## Start the program
 
-bundle exec ruby draft.rb
+```shell
+bundle exec ruby anagram_app.rb
+```
+
+The result is in output/anagrams.txt
 
 ## Start test
 
-bundle exec ruby test/anagrams.rb
+```shell
+bundle exec ruby test/anagram_test.rb
+```
